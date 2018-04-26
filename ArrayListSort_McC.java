@@ -23,12 +23,16 @@ public class ArrayListSort_McC {
     	yeehaw.add(1.0);
     	
     	System.out.println("Unsorted: ");
-    	//displayArray(yeehaw);
+    		for (int i = 0; i < 5; i++) {
+    			System.out.println(yeehaw.get(i));
+    		}
     	
-    	selectionSort.testSort(yeehaw);
+    	selectionSort.testSort(yeehaw); //issue here
     	
     	System.out.println("Sorted: ");
-    	//displayArray(yeehaw);
+    		for (int i = 0; i < 5; i++) {
+    			System.out.println(yeehaw.get(i));
+    		}
     	
     }
 }
